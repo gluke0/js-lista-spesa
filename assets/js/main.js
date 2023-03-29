@@ -8,7 +8,7 @@ let list = [
     'cipolla',
     'maionese',
     'patate',
-    'coca cola',
+    'coca-cola',
 ]
 
 let i = 0;
