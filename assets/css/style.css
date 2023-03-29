@@ -12,7 +12,6 @@ body{
 main{
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: auto;
     width: 90%;
     padding-top: 3rem;
@@ -22,14 +21,14 @@ main{
     width: 40%;
     padding-right: 1.5rem;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
 }
 
 .right{
     width: 60%;
     padding-left: 1.5rem;
-
 }
 
 h1{

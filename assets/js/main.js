@@ -19,3 +19,17 @@ while(i < list.length){
 
     i++
 }
+
+function addToList (){
+    let dimenticato = document.getElementById("dimenticato").value;
+    if(dimenticato) {
+      document.querySelector("ul").innerHTML+=`<li>${dimenticato}</li>`;
+      list.push(dimenticato)
+    }
+    document.getElementById("dimenticato").value = '';
+  }
+  
+  document.querySelector("button").addEventListener("click", 
+  function (){
+    addToList();
+  }) 
