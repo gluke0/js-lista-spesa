@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Martian Mono';
+    background-color: rgb(242, 106, 88);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    padding-top: 3rem;
+}
+
+.left{
+    width: 40%;
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    width: 60%;
+    padding-left: 1.5rem;
+
+}
+
+h1{
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+ul{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-top: 2rem;
+}
