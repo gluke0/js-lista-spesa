@@ -27,9 +27,12 @@ function addToList (){
       list.push(dimenticato)
     }
     document.getElementById("dimenticato").value = '';
-  }
+}
   
-  document.querySelector("button").addEventListener("click", 
-  function (){
-    addToList();
-  }) 
+document.querySelector("button").addEventListener("click", 
+function (){
+addToList();
+}) 
+
+
+

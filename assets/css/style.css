@@ -90,3 +90,7 @@ button{
 .fa-solid:hover{
     transform: scale(1.1);
 }
+
+.bought{
+    filter: blur(3px);
+}
